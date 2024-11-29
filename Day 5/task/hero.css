@@ -1,30 +1,36 @@
 .container{
     background-color: white;
-    height: 100vh;
+    min-height: 100vh;
     border: 2px solid yellow;
     padding: 50px;
     
 }
 .hero{
     display: flex;
-    border: 10px solid;
+    
     
 }
 .left{
 width: 60%;
 font-size: 60px;
-border: 5px solid red;
+
+padding-left: 20px;
 }
 .right{
     width: 40%;
     font-size: 40px;
-    border: 2px solid black ;
-    background-color: green;
-    border: 10px solid yellow;
+    
+    background-color: rgb(51, 198, 51);
+    border-radius: 30px;
+    rotate: -2deg;
+    padding: auto;
+   
+    padding-left: 20px;
     
 }
 .A{
     font-size: 20px;
+    padding-right: 20px;
 }
 .B{
     font-size: 20px;
@@ -36,10 +42,11 @@ border: 5px solid red;
     font-size: 40px;
     
 }
-.D{
-    font-size: 40px;
-    color: gray;
-}
+
 .F{
-    left: 20px;;
+    left: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+
 }
